@@ -8,5 +8,4 @@ puts "----------"
 @store1 = Store.first
 @store2 = Store.second
 
-@store1.name = "Burnaby2"
-@store1.save
+@store1.update(name: "Burnaby2")
